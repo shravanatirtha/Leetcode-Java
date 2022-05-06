@@ -10,11 +10,7 @@ import java.util.stream.*;
 // @lc code=start
 class Solution {
     public boolean containsDuplicate(int[] nums) {
-       List<Integer> list=Arrays.stream(nums)
-       .boxed()
-       .collect(Collectors.toList());
-        HashSet<Integer> set= new HashSet<>(list);
-        return set.size()==list.size();
+      
     }
 }
 // @lc code=end
